@@ -8,6 +8,8 @@ fastapi = "*"
 uvicorn = "*"
 pydantic-settings = "*"
 sqlalchemy = "*"
+asyncpg = "*"
+greenlet = "*"
 
 [dev-packages]
 
