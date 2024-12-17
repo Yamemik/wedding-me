@@ -12,7 +12,7 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     created_at = Column(DateTime, default=datetime.now)
     email = Column(String, unique=True)
-    password = Column(String, )
+    password = Column(String)
     surname = Column(String)
     name = Column(String)
     patr = Column(String)

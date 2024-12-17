@@ -4,8 +4,13 @@ from typing import AsyncGenerator
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 
+from common.settings import settings
 
-SQLALCHEMY_DATABASE_URL = os.getenv('STRING_CONNECT')
+
+if settings.debug:
+    SQLALCHEMY_DATABASE_URL = settings.string_connect
+else:
+    SQLALCHEMY_DATABASE_URL = os.getenv('STRING_CONNECT')
 
 engine = create_async_engine(
     SQLALCHEMY_DATABASE_URL
