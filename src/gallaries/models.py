@@ -11,5 +11,6 @@ class Gallery(Base):
 
     id = Column(Integer, primary_key=True)
     created_at = Column(DateTime, default=datetime.now)
+    visible = Column(Boolean, default=True)
 
     
