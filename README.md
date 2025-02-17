@@ -60,7 +60,7 @@ erDiagram
         int group_id FK
         int album_id FK
     }	
-    USER |o--|{ PAYMENT : pays for    
+    USER |o--|{ PAYMENT : pays_for    
 	PAYMENT {
         int id PK
         date created_at
