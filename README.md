@@ -118,3 +118,4 @@ pipenv install
 _____
 [by Yamemik](https://github.com/Yamemik)
 [ТЗ](https://docs.google.com/document/d/1KUIepvxzV8rNgzTm7u0jYfLznHQ3HfmMgL96vpWOmVI/edit?usp=sharing)
+[ERD](https://www.mermaidchart.com/app/projects/fd09ee93-1435-4b78-923e-98d85a854631/diagrams/69b97eb7-3f73-4452-89ae-ade46339f9f9/version/v0.1/edit)
